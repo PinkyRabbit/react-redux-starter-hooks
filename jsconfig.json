@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "hooks/*": ["hooks/*"],
+      "http/*": ["http/*"],
+      "pages/*": ["pages/*"],
+      "redux/*": ["redux/*"],
+      "router/*": ["router/*"]
+    }
+  },
+  "include": ["src-base"],
+  "exclude": ["node_modules"]
+}

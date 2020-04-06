@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "processors": ["stylelint-processor-styled-components"],
+  "rules": {
+    "block-no-empty": null,
+    "color-hex-length": "long"
+  }
+}
